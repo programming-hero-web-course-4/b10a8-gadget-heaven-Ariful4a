@@ -11,7 +11,6 @@ function App() {
     <>
       <div>
         <h1 className='text-3xl font-bold underline mt-10 '>Assignment 8</h1>
-        <Root></Root>
       </div>
     </>
   )
