@@ -11,6 +11,7 @@ import Root from './Components/Roots/Root.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import Home from './Components/Home/Home.jsx';
 import Dashbord from './Components/Dashbord/Dashbord.jsx';
+import ProductDetail from './Components/ProductDetails/ProductDetail.jsx';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,15 @@ const router = createBrowserRouter([
         path: "/Dashbord",
         element: <Dashbord></Dashbord>,
       },
+      {
+        path: "/Statistics",
+        element: <h1>Statistics</h1>,
+      },
+      {
+        path : '/detail/:product_id',
+        element : <ProductDetail></ProductDetail>,
+        loader : ()=> fetch('/productData.json')
+      }
     ]
   },
 ]);

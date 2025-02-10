@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Catagori = ({ catagori }) => {
-    const { product_title, product_image, price } = catagori;
+    const {product_id, product_title, product_image, price } = catagori;
     return (
         <div>
             {/* main div */}
@@ -17,9 +18,11 @@ const Catagori = ({ catagori }) => {
                             <h2 className="card-title">{product_title}</h2>
                             <p className='text-gray-800'>Price : {price}</p>
                             <div className="">
-                                <button className="btn border-[4px] border-[#9538E2] bg-transparent text-black rounded-full hover:bg-[#9538E2] hover:border-white hover:text-white">
+                               <Link to={`/detail/${product_id}`}>
+                               <button className="btn border-[4px] border-[#9538E2] bg-transparent text-black rounded-full hover:bg-[#9538E2] hover:border-white hover:text-white">
                                     Details
                                 </button>
+                               </Link>
 
                             </div>
                         </div>
