@@ -1,0 +1,195 @@
+[
+    {
+      "product_id": "L001",
+      "product_title": "Dell Inspiron 15",
+      "product_image": "https://example.com/dell-inspiron-15.jpg",
+      "category": "Laptop",
+      "price": 65000,
+      "description": "Dell Inspiron 15 একটি উচ্চক্ষমতাসম্পন্ন ল্যাপটপ যা দৈনন্দিন ব্যবহারের জন্য আদর্শ।",
+      "Specification": [
+        "Intel Core i5 12th Gen",
+        "8GB RAM",
+        "512GB SSD",
+        "15.6-inch FHD Display"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "L002",
+      "product_title": "HP Pavilion 14",
+      "product_image": "https://example.com/hp-pavilion-14.jpg",
+      "category": "Laptop",
+      "price": 72000,
+      "description": "HP Pavilion 14 অফিস ও শিক্ষার্থীদের জন্য চমৎকার পারফরম্যান্স প্রদান করে।",
+      "Specification": [
+        "Intel Core i7 11th Gen",
+        "16GB RAM",
+        "512GB SSD",
+        "14-inch Full HD Display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "S001",
+      "product_title": "iPhone 15 Pro",
+      "product_image": "https://example.com/iphone-15-pro.jpg",
+      "category": "Smartphone",
+      "price": 150000,
+      "description": "Apple iPhone 15 Pro, অত্যাধুনিক ক্যামেরা ও শক্তিশালী A17 চিপসেট সহ।",
+      "Specification": [
+        "A17 Bionic Chip",
+        "6.1-inch Super Retina Display",
+        "48MP Triple Camera",
+        "512GB Storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "S002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://example.com/samsung-s23-ultra.jpg",
+      "category": "Smartphone",
+      "price": 140000,
+      "description": "Samsung Galaxy S23 Ultra 200MP ক্যামেরা ও শক্তিশালী Snapdragon 8 Gen 2 প্রসেসর সহ।",
+      "Specification": [
+        "Snapdragon 8 Gen 2",
+        "6.8-inch AMOLED Display",
+        "200MP Quad Camera",
+        "1TB Storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E001",
+      "product_title": "Apple AirPods Pro 2",
+      "product_image": "https://example.com/airpods-pro-2.jpg",
+      "category": "Earbuds",
+      "price": 30000,
+      "description": "Apple AirPods Pro 2, নয়েজ ক্যান্সেলিং ও দুর্দান্ত সাউন্ড কোয়ালিটি সহ।",
+      "Specification": [
+        "Active Noise Cancelling",
+        "Spatial Audio",
+        "MagSafe Charging",
+        "Sweat & Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "E002",
+      "product_title": "Samsung Galaxy Buds 2 Pro",
+      "product_image": "https://example.com/galaxy-buds-2-pro.jpg",
+      "category": "Earbuds",
+      "price": 18000,
+      "description": "Samsung Galaxy Buds 2 Pro, উন্নত অডিও কোয়ালিটি ও কমফোর্ট ডিজাইন সহ।",
+      "Specification": [
+        "Active Noise Cancelling",
+        "Hi-Fi Sound",
+        "Wireless Charging",
+        "Bluetooth 5.3"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "A001",
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://example.com/mx-master-3.jpg",
+      "category": "Accessories",
+      "price": 10500,
+      "description": "Logitech MX Master 3 একটি প্রিমিয়াম ওয়্যারলেস মাউস, যার স্ক্রলিং এবং গ্রিপ অসাধারণ।",
+      "Specification": [
+        "Wireless Connectivity",
+        "Customizable Buttons",
+        "USB-C Charging",
+        "Ergonomic Design"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "A002",
+      "product_title": "Razer BlackWidow V3 Keyboard",
+      "product_image": "https://example.com/blackwidow-v3.jpg",
+      "category": "Accessories",
+      "price": 12500,
+      "description": "Razer BlackWidow V3 একটি উচ্চমানের মেকানিক্যাল গেমিং কিবোর্ড।",
+      "Specification": [
+        "RGB Lighting",
+        "Mechanical Switches",
+        "Wrist Rest",
+        "USB Connectivity"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "L003",
+      "product_title": "Apple MacBook Air M1",
+      "product_image": "https://example.com/macbook-air-m1.jpg",
+      "category": "Laptop",
+      "price": 105000,
+      "description": "Apple MacBook Air M1, দীর্ঘ ব্যাটারি লাইফ এবং চমৎকার পারফরম্যান্স সহ আসে।",
+      "Specification": [
+        "Apple M1 Chip",
+        "8GB RAM",
+        "256GB SSD",
+        "13.3-inch Retina Display"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "L004",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://example.com/thinkpad-x1-carbon.jpg",
+      "category": "Laptop",
+      "price": 135000,
+      "description": "Lenovo ThinkPad X1 Carbon ব্যবসায়িক কাজের জন্য আদর্শ, শক্তিশালী ব্যাটারি ও নিরাপত্তা ফিচারসহ।",
+      "Specification": [
+        "Intel Core i7 12th Gen",
+        "16GB RAM",
+        "1TB SSD",
+        "14-inch UHD Display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "W001",
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://example.com/apple-watch-8.jpg",
+      "category": "Smartwatch",
+      "price": 55000,
+      "description": "Apple Watch Series 8, উন্নত স্বাস্থ্য ট্র্যাকিং ও Always-On ডিসপ্লে সহ।",
+      "Specification": [
+        "Blood Oxygen Sensor",
+        "ECG App",
+        "Retina Display",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "W002",
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://example.com/galaxy-watch-5.jpg",
+      "category": "Smartwatch",
+      "price": 38000,
+      "description": "Samsung Galaxy Watch 5, উন্নত ফিটনেস ট্র্যাকিং ও দীর্ঘ ব্যাটারি লাইফ সহ।",
+      "Specification": [
+        "BioActive Sensor",
+        "AMOLED Display",
+        "Water Resistant",
+        "Wireless Charging"
+      ],
+      "availability": true,
+      "rating": 4.7
+    }
+  ]
+  
