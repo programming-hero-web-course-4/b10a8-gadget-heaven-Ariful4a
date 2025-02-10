@@ -1,9 +1,22 @@
-{
-    "categories": [
-      "Laptops",
-      "Smartphones",
-      "Earbuds",
-      "Accessories",
-      "Smartwatches"
-    ]
-  }
+[
+        {
+          "category": "Laptop",
+          "category_icon": "https://i.ibb.co.com/N7dM2K1/cat.png"
+        },
+        {
+          "category": "Smartphone",
+          "category_icon": "https://i.ibb.co.com/c8Yp1y7/dog.png"
+        },
+        {
+          "category": "Earbuds",
+          "category_icon": "https://i.ibb.co.com/3hftmLC/rabbit.png"
+        },
+        {
+          "category": "Accessories",
+          "category_icon": "https://i.ibb.co.com/6HHZwfq/bird.png"
+        },
+        {
+          "category": "Smartwatch",
+          "category_icon": "https://i.ibb.co.com/6HHZwfq/bird.png"
+        }
+      ]

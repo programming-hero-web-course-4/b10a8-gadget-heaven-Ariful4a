@@ -2,7 +2,7 @@
     {
       "product_id": "L001",
       "product_title": "Dell Inspiron 15",
-      "product_image": "https://example.com/dell-inspiron-15.jpg",
+      "product_image": "https://i.ibb.co.com/8Dx4zNv9/download.jpg",
       "category": "Laptop",
       "price": 65000,
       "description": "Dell Inspiron 15 একটি উচ্চক্ষমতাসম্পন্ন ল্যাপটপ যা দৈনন্দিন ব্যবহারের জন্য আদর্শ।",
@@ -18,7 +18,7 @@
     {
       "product_id": "L002",
       "product_title": "HP Pavilion 14",
-      "product_image": "https://example.com/hp-pavilion-14.jpg",
+      "product_image": "https://i.ibb.co.com/wNjgXQbH/download-1.jpg",
       "category": "Laptop",
       "price": 72000,
       "description": "HP Pavilion 14 অফিস ও শিক্ষার্থীদের জন্য চমৎকার পারফরম্যান্স প্রদান করে।",
@@ -34,7 +34,7 @@
     {
       "product_id": "S001",
       "product_title": "iPhone 15 Pro",
-      "product_image": "https://example.com/iphone-15-pro.jpg",
+      "product_image": "https://i.ibb.co.com/wh02ftVC/download-2.jpg",
       "category": "Smartphone",
       "price": 150000,
       "description": "Apple iPhone 15 Pro, অত্যাধুনিক ক্যামেরা ও শক্তিশালী A17 চিপসেট সহ।",
@@ -50,7 +50,7 @@
     {
       "product_id": "S002",
       "product_title": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://example.com/samsung-s23-ultra.jpg",
+      "product_image": "https://i.ibb.co.com/XrKPX09F/download-3.jpg",
       "category": "Smartphone",
       "price": 140000,
       "description": "Samsung Galaxy S23 Ultra 200MP ক্যামেরা ও শক্তিশালী Snapdragon 8 Gen 2 প্রসেসর সহ।",
@@ -66,7 +66,7 @@
     {
       "product_id": "E001",
       "product_title": "Apple AirPods Pro 2",
-      "product_image": "https://example.com/airpods-pro-2.jpg",
+      "product_image": "https://i.ibb.co.com/Jw9dt8PX/download-4.jpg",
       "category": "Earbuds",
       "price": 30000,
       "description": "Apple AirPods Pro 2, নয়েজ ক্যান্সেলিং ও দুর্দান্ত সাউন্ড কোয়ালিটি সহ।",
@@ -82,7 +82,7 @@
     {
       "product_id": "E002",
       "product_title": "Samsung Galaxy Buds 2 Pro",
-      "product_image": "https://example.com/galaxy-buds-2-pro.jpg",
+      "product_image": "https://i.ibb.co.com/Xf3qDjzT/download-5.jpg",
       "category": "Earbuds",
       "price": 18000,
       "description": "Samsung Galaxy Buds 2 Pro, উন্নত অডিও কোয়ালিটি ও কমফোর্ট ডিজাইন সহ।",
@@ -98,7 +98,7 @@
     {
       "product_id": "A001",
       "product_title": "Logitech MX Master 3",
-      "product_image": "https://example.com/mx-master-3.jpg",
+      "product_image": "https://i.ibb.co.com/qYVzbp9Z/download-6.jpg",
       "category": "Accessories",
       "price": 10500,
       "description": "Logitech MX Master 3 একটি প্রিমিয়াম ওয়্যারলেস মাউস, যার স্ক্রলিং এবং গ্রিপ অসাধারণ।",
@@ -114,7 +114,7 @@
     {
       "product_id": "A002",
       "product_title": "Razer BlackWidow V3 Keyboard",
-      "product_image": "https://example.com/blackwidow-v3.jpg",
+      "product_image": "https://i.ibb.co.com/CKgBg9GB/download-7.jpg",
       "category": "Accessories",
       "price": 12500,
       "description": "Razer BlackWidow V3 একটি উচ্চমানের মেকানিক্যাল গেমিং কিবোর্ড।",
@@ -130,7 +130,7 @@
     {
       "product_id": "L003",
       "product_title": "Apple MacBook Air M1",
-      "product_image": "https://example.com/macbook-air-m1.jpg",
+      "product_image": "https://i.ibb.co.com/x8fm5XpQ/download-8.jpg",
       "category": "Laptop",
       "price": 105000,
       "description": "Apple MacBook Air M1, দীর্ঘ ব্যাটারি লাইফ এবং চমৎকার পারফরম্যান্স সহ আসে।",
@@ -146,7 +146,7 @@
     {
       "product_id": "L004",
       "product_title": "Lenovo ThinkPad X1 Carbon",
-      "product_image": "https://example.com/thinkpad-x1-carbon.jpg",
+      "product_image": "https://i.ibb.co.com/hJVnDq01/download-9.jpg",
       "category": "Laptop",
       "price": 135000,
       "description": "Lenovo ThinkPad X1 Carbon ব্যবসায়িক কাজের জন্য আদর্শ, শক্তিশালী ব্যাটারি ও নিরাপত্তা ফিচারসহ।",
@@ -162,7 +162,7 @@
     {
       "product_id": "W001",
       "product_title": "Apple Watch Series 8",
-      "product_image": "https://example.com/apple-watch-8.jpg",
+      "product_image": "https://i.ibb.co.com/mVpKF1s4/download-10.jpg",
       "category": "Smartwatch",
       "price": 55000,
       "description": "Apple Watch Series 8, উন্নত স্বাস্থ্য ট্র্যাকিং ও Always-On ডিসপ্লে সহ।",
@@ -178,7 +178,7 @@
     {
       "product_id": "W002",
       "product_title": "Samsung Galaxy Watch 5",
-      "product_image": "https://example.com/galaxy-watch-5.jpg",
+      "product_image": "https://i.ibb.co.com/3y6f1c2Z/download-11.jpg",
       "category": "Smartwatch",
       "price": 38000,
       "description": "Samsung Galaxy Watch 5, উন্নত ফিটনেস ট্র্যাকিং ও দীর্ঘ ব্যাটারি লাইফ সহ।",
