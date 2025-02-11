@@ -12,8 +12,8 @@
         "512GB SSD",
         "15.6-inch FHD Display"
       ],
-      "availability": true,
-      "rating": 4.5
+      "availability": false,
+      "rating": 4.0
     },
     {
       "product_id": "L002",
@@ -45,7 +45,7 @@
         "512GB Storage"
       ],
       "availability": true,
-      "rating": 4.9
+      "rating": 5.0
     },
     {
       "product_id": "S002",
@@ -77,7 +77,7 @@
         "Sweat & Water Resistant"
       ],
       "availability": true,
-      "rating": 4.9
+      "rating": 4.0
     },
     {
       "product_id": "E002",
