@@ -62,6 +62,7 @@ const Navbar = () => {
                 <div className="navbar-end gap-4">
                     <a className="btn bg-amber-50 text-black">
                         <FaCartArrowDown />
+
                     </a>
                     <a className="btn bg-amber-50 text-black">
                         <GiSelfLove />
