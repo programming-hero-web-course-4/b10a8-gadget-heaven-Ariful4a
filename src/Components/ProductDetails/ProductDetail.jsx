@@ -1,6 +1,7 @@
-
+import { GiSelfLove } from "react-icons/gi";
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addWishListProduct, adStoredProductList } from "../../Utility/adToLo";
 
 const ProductDetail = () => {
     const { product_id } = useParams();
@@ -16,7 +17,15 @@ const ProductDetail = () => {
 
     const handleMarkAsRead = (id) => {
         console.log("Added to Cart:", id);
+        adStoredProductList(id);
     };
+
+
+    const handaleMarkAsReadWishList = (id) => {
+        console.log("Added to Cart:", id);
+        addWishListProduct(id);
+    };
+
 
     return (
         <div className="hero bg-base-200 min-h-screen p-6 mb-6 rounded-2xl">
@@ -67,7 +76,7 @@ const ProductDetail = () => {
                         <button onClick={() => handleMarkAsRead(product_id)} className="btn btn-outline btn-info">
                             Add to Cart
                         </button>
-                        <button className="btn btn-info">Wishlist</button>
+                        <button onClick={() => handaleMarkAsReadWishList(product_id)} className="btn bordrer-4 btn-outline btn-info bg-transparent text-white"><GiSelfLove /></button>
                     </div>
                 </div>
             </div>
