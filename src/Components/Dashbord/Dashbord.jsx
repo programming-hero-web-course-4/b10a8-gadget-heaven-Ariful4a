@@ -2,18 +2,29 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getStoredProductList } from '../../Utility/adToLo';
 import { RxCross2 } from "react-icons/rx";
+import { FaArrowDownWideShort } from "react-icons/fa6";
+
 
 const Dashbord = () => {
     const [addTocart, setAddToCart] = useState([]);
     const allProducts = useLoaderData();
-    
+    const [short, setShort] = useState('');
 
     useEffect(() => {
         const storedProduct = getStoredProductList();
         console.log(storedProduct, allProducts);
         const productAdd = allProducts.filter(product => storedProduct.includes(product.product_id));
         setAddToCart(productAdd);
-    }, [])
+    }, []);
+
+    const handleShortPrice = (shortType) => {
+        setShort(shortType);
+
+        if(shortType === 'price'){
+            const shorted = [...addTocart].sort((a, b) => b.price - a.price);
+            setAddToCart(shorted);
+        }
+    }
 
 
     return (
@@ -33,7 +44,7 @@ const Dashbord = () => {
                     <h2 className='text-2xl font-bold'>Cart</h2>
                     <div className='flex gap-4 items-center'>
                         <h2>Total Cost : </h2>
-                        <button className='btn btn-outline rounded-full'>Short By Price</button>
+                        <button onClick={() => handleShortPrice('price')} className='btn btn-outline rounded-full'>Short By Price <FaArrowDownWideShort></FaArrowDownWideShort></button>
                         <button className='btn btn-outline rounded-full'>Purchase</button>
                     </div>
                 </div>
@@ -56,7 +67,7 @@ const Dashbord = () => {
                                         <button className='btn btn-outline text-red-500'><RxCross2></RxCross2></button>
                                     </div>
                                 </div>
-                            </div>) 
+                            </div>)
                         }
                     </div>
                 </div>
