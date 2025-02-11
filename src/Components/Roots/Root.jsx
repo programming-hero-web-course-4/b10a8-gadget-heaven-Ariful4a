@@ -32,15 +32,11 @@ const Root = () => {
 
     return (
         <div>
-            {/* Navbar এর dynamic background */}
+            {/* Navbar dynamic background */}
             <div className={`${navbarBackground} transition-all duration-300`}>
                 <Navbar />
             </div>
-
-            {/* Outlet - Content */}
             <Outlet />
-
-            {/* Footer */}
             <Footer />
         </div>
     );

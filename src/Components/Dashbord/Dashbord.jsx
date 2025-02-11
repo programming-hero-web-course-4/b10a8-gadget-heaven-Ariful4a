@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { getStoredProductList } from '../../Utility/adToLo';
 import { RxCross2 } from "react-icons/rx";
 import { FaArrowDownWideShort } from "react-icons/fa6";
@@ -16,6 +16,9 @@ const Dashbord = () => {
         const productAdd = allProducts.filter(product => storedProduct.includes(product.product_id));
         setAddToCart(productAdd);
     }, []);
+
+
+
 
     const handleShortPrice = (shortType) => {
         setShort(shortType);
@@ -34,8 +37,8 @@ const Dashbord = () => {
                     <h1 className='text-4xl'>Dashbord</h1>
                     <p>Explore the latest gadgets that will take your experience to <br /> the next level. From smart devices to the coolest accessories, we have it all!</p>
                     <div className='flex gap-4 justify-center'>
-                        <button className='btn btn-outline rounded-full'>Cart</button>
-                        <button className='btn btn-outline rounded-full'>Wishlist</button>
+                        <Link to={'/dashbord'}><button className='btn btn-outline rounded-full'>Cart</button></Link>
+                        <Link to={'/wishlist'}><button className='btn btn-outline rounded-full'>Wishlist</button></Link>
                     </div>
                 </div>
             </div>
