@@ -12,7 +12,7 @@ const Catagoris = () => {
             .then(data => setCatagoris(data))
     }, []);
 
-    // ফিল্টার করা প্রোডাক্ট ডাটা
+
     const filteredProducts = selectedCategory === "All"
         ? catagoris
         : catagoris.filter(product => product.category === selectedCategory);
@@ -21,7 +21,7 @@ const Catagoris = () => {
         <div className='max-w-6xl mx-auto'>
             <h2 className='text-4xl text-center mt-20 font-bold'>Explore Cutting-Edge Gadgets</h2>
             <div className='flex gap-10'>
-                {/* categoru buttons  */}
+                {/* categoris buttons  */}
                 <div>
                     <SingleCatagoris setSelectedCategory={setSelectedCategory} selectedCategory={selectedCategory} />
                 </div>

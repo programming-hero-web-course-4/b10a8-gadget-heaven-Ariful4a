@@ -18,6 +18,7 @@ const ProductDetail = () => {
     const handleMarkAsRead = (id) => {
         console.log("Added to Cart:", id);
         adStoredProductList(id);
+        
     };
 
 

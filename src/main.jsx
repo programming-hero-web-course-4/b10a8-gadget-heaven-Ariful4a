@@ -13,7 +13,7 @@ import Home from './Components/Home/Home.jsx';
 import Dashbord from './Components/Dashbord/Dashbord.jsx';
 import ProductDetail from './Components/ProductDetails/ProductDetail.jsx';
 import { ToastContainer } from 'react-toastify';
-import WishList from './Components/WishList/WishList.jsx';
+
 
 
 const router = createBrowserRouter([
@@ -42,11 +42,6 @@ const router = createBrowserRouter([
         element : <ProductDetail></ProductDetail>,
         loader : ()=> fetch('/productData.json')
       },
-      {
-        path : '/wishlist',
-        element : <WishList></WishList>,
-        loader : ()=> fetch('/productData.json')
-      }
     ]
   },
 ]);

@@ -20,7 +20,7 @@ const adStoredProductList = (id) => {
         console.log('already added');
         toast.error(`Already added`, {
             position: "top-center",
-            autoClose: 3000, 
+            autoClose: 1000, 
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true, 
@@ -31,7 +31,7 @@ const adStoredProductList = (id) => {
         localStorage.setItem('productList', JSON.stringify(storedProduct));
         toast.success(`Added to Cart!`, {
             position: "top-center",
-            autoClose: 3000, 
+            autoClose: 1000, 
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true, 
@@ -59,7 +59,7 @@ const addWishListProduct = (id) => {
         console.log('all redy added');
         toast.error(`Already added in Wish List`, {
             position: "top-center",
-            autoClose: 3000, 
+            autoClose: 1000, 
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true, 
@@ -70,7 +70,7 @@ const addWishListProduct = (id) => {
         localStorage.setItem('productWishList' , JSON.stringify( storedProductWishList));
         toast.success(`Added to Cart!`, {
             position: "top-center",
-            autoClose: 3000, 
+            autoClose: 1000, 
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true, 
@@ -79,8 +79,13 @@ const addWishListProduct = (id) => {
     }
 }
 
+// Utility/adToLo.js
+
+const clearCart = () => {
+    localStorage.removeItem('productList'); // যেভাবে ডাটা স্টোর করো সেই অনুযায়ী চেক করো
+};
 
 
 
 
-export {adStoredProductList, getStoredProductList, addWishListProduct, getStoredProductWishList};
+export {adStoredProductList, getStoredProductList, addWishListProduct, getStoredProductWishList, clearCart};

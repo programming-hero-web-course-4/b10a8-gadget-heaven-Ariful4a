@@ -1,10 +1,33 @@
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaCartArrowDown } from "react-icons/fa6";
 import { GiSelfLove } from "react-icons/gi";
+import { getStoredProductList } from '../../Utility/adToLo';
 
 const Navbar = () => {
+    const [cartCount, setCartCount] = useState(0);
+
+    const updateCartCount = () => {
+        const storedProducts = getStoredProductList();
+        setCartCount(storedProducts.length);
+    };
+
+    useEffect(() => {
+        updateCartCount(); 
+    }, []);
+
+    useEffect(() => {
+        const handleStorageChange = () => {
+            updateCartCount(); 
+        };
+
+        window.addEventListener("storage", handleStorageChange);
+
+        return () => {
+            window.removeEventListener("storage", handleStorageChange);
+        };
+    }, []);
+
     return (
         <div className="max-w-6xl mx-auto">
             <div className="navbar shadow-sm">
@@ -60,10 +83,14 @@ const Navbar = () => {
 
                 {/* Navbar End */}
                 <div className="navbar-end gap-4">
-                    <a className="btn bg-amber-50 text-black">
+                    <NavLink to="/Dashbord" className="btn bg-amber-50 text-black relative">
                         <FaCartArrowDown />
-
-                    </a>
+                        {cartCount > 0 && (
+                            <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
+                                {cartCount}
+                            </span>
+                        )}
+                    </NavLink>
                     <a className="btn bg-amber-50 text-black">
                         <GiSelfLove />
                     </a>
