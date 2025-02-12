@@ -2,6 +2,7 @@ import { GiSelfLove } from "react-icons/gi";
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addWishListProduct, adStoredProductList } from "../../Utility/adToLo";
+import { toast } from "react-toastify";
 
 const ProductDetail = () => {
     const { product_id } = useParams();
@@ -15,10 +16,22 @@ const ProductDetail = () => {
 
     const { product_title, price, availability, description, Specification, rating, product_image } = details;
 
+
     const handleMarkAsRead = (id) => {
-        console.log("Added to Cart:", id);
-        adStoredProductList(id);
-        
+        if (availability) {  
+            console.log("Added to Cart:", id);
+            adStoredProductList(id);
+        } else { 
+            console.log('Out of stock');
+            toast.error(`Out of stock`, {
+                position: "top-center",
+                autoClose: 1000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+            });
+        }
     };
 
 

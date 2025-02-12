@@ -13,6 +13,7 @@ import Home from './Components/Home/Home.jsx';
 import Dashbord from './Components/Dashbord/Dashbord.jsx';
 import ProductDetail from './Components/ProductDetails/ProductDetail.jsx';
 import { ToastContainer } from 'react-toastify';
+import Statistics from './Components/Statistics/Statistics.jsx';
 
 
 
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/Statistics",
-        element: <h1>Statistics</h1>,
+        element: <Statistics></Statistics>,
       },
       {
         path : '/detail/:product_id',
