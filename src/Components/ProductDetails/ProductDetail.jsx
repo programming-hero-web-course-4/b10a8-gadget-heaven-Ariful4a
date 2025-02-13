@@ -3,6 +3,7 @@ import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addWishListProduct, adStoredProductList } from "../../Utility/adToLo";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetail = () => {
     const { product_id } = useParams();
@@ -43,6 +44,9 @@ const ProductDetail = () => {
 
     return (
         <div className="hero bg-base-200 min-h-screen p-6 mb-6 rounded-2xl">
+            <Helmet>
+                <title>{product_title} | Gadget Heaven</title>
+            </Helmet>
             <div className="hero-content grid grid-cols-2 gap-10">
                 {/* Product Image */}
                 <div className="bg-slate-200 flex justify-center py-10 rounded-2xl">

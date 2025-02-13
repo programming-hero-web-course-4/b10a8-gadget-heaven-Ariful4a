@@ -5,6 +5,7 @@ import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import { getStoredProductList, getStoredProductWishList, clearCart } from '../../Utility/adToLo';
 import { RxCross2 } from "react-icons/rx";
 import { FaArrowDownWideShort } from "react-icons/fa6";
+import { Helmet } from 'react-helmet-async';
 
 
 const Dashbord = () => {
@@ -58,6 +59,9 @@ const Dashbord = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Dashbord | Gadget Heaven</title>
+            </Helmet>
             <div className='flex justify-center bg-[#9538E2] p-10 text-center w-full'>
                 <div className='space-y-4'>
                     <h1 className='text-4xl font-bold'>Dashbord</h1>
